@@ -4,7 +4,7 @@ Rails.application.configure do
   #:storage => :s3,
   #:s3_host_name => 'REMOVE_THIS_LINE_IF_UNNECESSARY',
   #:bucket => 'moviegram'
-}
+  #}
   # Code is not reloaded between requests.
   config.cache_classes = true
 
