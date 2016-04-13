@@ -1,7 +1,11 @@
 class PostsController < ApplicationController
+  include Paperclip::Storage::Database::ControllerClassMethods
+
   before_action :authenticate_user!
   before_action :set_post, only: [:show, :edit, :update, :destroy, :like]
   before_action :owned_post, only: [:edit, :update, :destroy]
+
+  downloads_files_for :post, :image
 
   def index
     @posts = Post.all.order('created_at DESC').page params[:page]
