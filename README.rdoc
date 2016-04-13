@@ -1,4 +1,7 @@
-Enjoy this new way of talking about movies! Have just completed user authentication, more is on its way!
+Enjoy this new way of talking about movies! Have just completed user authentication, more is on its way! (Am working on user profiles)
 
 Technologies used: Ruby 2.15, Rails 4.2.5, Haml/Bootstrap
 Gems used: Paperclip, Devise, simple_form
+
+Link to the web app : https://radiant-wildwood-50629.herokuapp.com/
+
