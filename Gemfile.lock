@@ -115,6 +115,8 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (= 0.3.0)
+    paperclip_database (2.3.1)
+      paperclip (>= 2.3.0)
     pg (0.18.4-x86-mingw32)
     rack (1.6.4)
     rack-test (0.6.3)
@@ -205,6 +207,7 @@ DEPENDENCIES
   jquery-rails
   kaminari (~> 0.16.3)
   paperclip (~> 4.3)
+  paperclip_database (~> 2.0)
   pg
   rails (= 4.2.5)
   sass-rails (~> 5.0)
